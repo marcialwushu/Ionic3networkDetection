@@ -12,4 +12,15 @@ export class HomePage {
 
   }
 
+
+  ionViewDidEnter(){
+   this.network.onConnect().subscribe(data => {
+     console.log(data)
+   }, error => console.log(error));
+
+   this.network.onDisconnect().subscribe(data => {
+     console.log(data)
+   }, error => console.log(error));
+  }
+
 }
