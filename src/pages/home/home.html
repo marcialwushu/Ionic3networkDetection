@@ -1,14 +1,16 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
+<ion-header >
+  <ion-navbar >
+    <ion-title primary>
       Ionic Blank
     </ion-title>
   </ion-navbar>
 </ion-header>
 
+  
 <ion-content padding >
   The world is your oyster.
   {{connected}}
+  <button ion-button block (click)="displayNetworkUpdate('top')">Show Toast Top Position</button>
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
   </p>
