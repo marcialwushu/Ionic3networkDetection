@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, ToastController } from 'ionic-angular';
+import { Network } from '@ionic-native/network';
 
 @Component({
   selector: 'page-home',
@@ -7,7 +8,7 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(private toast: ToastController, private network: Network, public navCtrl: NavController) {
 
   }
 
