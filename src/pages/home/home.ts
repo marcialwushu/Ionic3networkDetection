@@ -1,4 +1,5 @@
 import { NetworkInterface } from '@ionic-native/network-interface';
+
 import { Component } from '@angular/core';
 import { NavController, ToastController } from 'ionic-angular';
 import { Network } from '@ionic-native/network';
@@ -14,19 +15,17 @@ export class HomePage {
   disconnected: Subscription;
 
   
-  
-
   constructor(
     private toast: ToastController, 
     private network: Network, 
     public navCtrl: NavController,
     private networkInterface: NetworkInterface) {
-      this.networkInterface.getWiFiIPAddress();
+      //this.networkInterface.getWiFiIPAddress();
       
   }
 
   
-  
+   
 
 
   ionViewDidEnter(){
@@ -56,6 +55,13 @@ export class HomePage {
    this.disconnected.unsubscribe();
   }
 
+  getIpAdress(){
+
+    let networkinterface: any;
+    networkinterface.getWiFiIPAddress((ip) =>{
+      alert(ip);
+    })
+  }
   
 
 }
