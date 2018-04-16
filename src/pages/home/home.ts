@@ -19,15 +19,11 @@ export class HomePage {
     private toast: ToastController, 
     private network: Network, 
     public navCtrl: NavController,
-    private networkInterface: NetworkInterface) {
-      //this.networkInterface.getWiFiIPAddress();
-      
-  }
+    private networkInterface: NetworkInterface) { }
 
   
-   
-
-
+ 
+  
   ionViewDidEnter(){
    this.connected = this.network.onConnect().subscribe(data => {
      console.log(data)
@@ -57,11 +53,11 @@ export class HomePage {
 
   getIpAdress(){
 
-    let networkinterface: any;
-    networkinterface.getWiFiIPAddress((ip) =>{
-      alert(ip);
+    this.networkInterface.getWiFiIPAddress().catch(data =>{
+      console.log(data);
     })
   }
+
   
 
 }
