@@ -13,6 +13,7 @@ export class HomePage {
 
   connected: Subscription;
   disconnected: Subscription;
+  ipadress: any;
 
   
   constructor(
@@ -52,10 +53,21 @@ export class HomePage {
   }
 
   getIpAdress(){
-
+    
     this.networkInterface.getWiFiIPAddress().catch(data =>{
       console.log(data);
+      this.ipadress = data;
+      this.displayIpAdress(data);
+      
     })
+  }
+
+  displayIpAdress(ipConnection: string){
+    let adressIp = this.ipadress;
+    this.toast.create({
+      message: `You are now ${ipConnection} via ${adressIp}`,
+      duration: 3000
+    }).present();
   }
 
   
