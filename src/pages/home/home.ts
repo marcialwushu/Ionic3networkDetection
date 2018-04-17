@@ -1,6 +1,6 @@
 import { NetworkInterface } from '@ionic-native/network-interface';
 
-import { Component, ErrorHandler } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavController, ToastController } from 'ionic-angular';
 import { Network } from '@ionic-native/network';
 import { Subscription } from 'rxjs/Subscription';
@@ -16,7 +16,6 @@ export class HomePage {
   connected: Subscription;
   disconnected: Subscription;
   ipadress: any;
-
   
   constructor(
     private toast: ToastController, 
@@ -80,5 +79,8 @@ export class HomePage {
     WifiWizard.getCurrentSSID((ssid: string) => alert(`Your SSID: ${ssid}`), this.errorHandler );
   }
   
+  listNetworks(){
+    WifiWizard.listNetworks(networks => alert(`Networks: ${networks}`), this.errorHandler);
+  }
 
 }
