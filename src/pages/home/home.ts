@@ -1,9 +1,11 @@
 import { NetworkInterface } from '@ionic-native/network-interface';
 
-import { Component } from '@angular/core';
+import { Component, ErrorHandler } from '@angular/core';
 import { NavController, ToastController } from 'ionic-angular';
 import { Network } from '@ionic-native/network';
 import { Subscription } from 'rxjs/Subscription';
+
+declare var WifiWizard: any;
 
 @Component({
   selector: 'page-home',
@@ -70,6 +72,13 @@ export class HomePage {
     }).present();
   }
 
+  errorHandler(err: any){
+    alert(`Problem: ${err}`);
+  }
+
+  getSsidName(){
+    WifiWizard.getCurrentSSID((ssid: string) => alert(`Your SSID: ${ssid}`), this.errorHandler );
+  }
   
 
 }
