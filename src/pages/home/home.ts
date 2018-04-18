@@ -1,28 +1,14 @@
 
 import { NetworkInterface } from '@ionic-native/network-interface';
 
-import { Component, Injectable } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavController, ToastController } from 'ionic-angular';
 import { Network } from '@ionic-native/network';
 import { Subscription } from 'rxjs/Subscription';
-import { Plugin, IonicNativePlugin, Cordova } from '@ionic-native/core';
-
-//declare var WifiWizard: any;
 
 
-@Plugin({
-  pluginName: 'WifiWizard',
-  plugin: 'wifiwizard',
-  pluginRef: 'WifiWizard',
-  repo: 'https://github.com/hoerresb/WifiWizard',
-  platforms: ['Android', 'iOS']
-})
-@Injectable()
+declare var WifiWizard: any;
 
-export class WifiWizard extends IonicNativePlugin {
-  @Cordova()
-  getCurrentSSID(): Promise<string> {return;}
-}
 
 @Component({
   selector: 'page-home',
@@ -39,7 +25,7 @@ export class HomePage {
     private network: Network, 
     public navCtrl: NavController,
     private networkInterface: NetworkInterface,
-    public wifiWizard: WifiWizard
+    
   ) { }
 
   
@@ -95,15 +81,15 @@ export class HomePage {
   }
 
   getSsidName(){
-    this.wifiWizard.getCurrentSSID()
-      .then(ssid => ssid = ssid)
+    WifiWizard.getCurrentSSID(ssid => alert(`Your SSID: ${ssid}`), this.errorHandler)
+      
       .catch(error => console.log(error));
   }
-  /*
+  
   listNetworks(){
     WifiWizard.listNetworks(networks => alert(`Networks: ${networks}`), this.errorHandler);
   }
 
-  */
+  
 
 }

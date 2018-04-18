@@ -51,7 +51,6 @@
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-      "com.pylonproducts.wifiwizard": {},
       "cordova-plugin-network-information": {},
       "cordova-plugin-whitelist": {},
       "cordova-plugin-device": {},
