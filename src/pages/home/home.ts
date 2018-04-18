@@ -1,15 +1,14 @@
 
+import { Hotspot, HotspotNetwork } from '@ionic-native/hotspot';
+
 import { NetworkInterface } from '@ionic-native/network-interface';
 
-import { Component } from '@angular/core';
+import { Component, Injectable } from '@angular/core';
 import { NavController, ToastController } from 'ionic-angular';
 import { Network } from '@ionic-native/network';
 import { Subscription } from 'rxjs/Subscription';
 
-
-declare var WifiWizard: any;
-
-
+@Injectable()
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -25,7 +24,7 @@ export class HomePage {
     private network: Network, 
     public navCtrl: NavController,
     private networkInterface: NetworkInterface,
-    
+    private hotspot: Hotspot
   ) { }
 
   
@@ -69,25 +68,27 @@ export class HomePage {
   }
 
   displayIpAdress(ipConnection: string){
-    let adressIp = this.ipadress;
+    let adressIp = this.networkInterface.getWiFiIPAddress.name;
     this.toast.create({
       message: `You are now ${ipConnection} via ${adressIp}`,
       duration: 3000
     }).present();
   }
 
-  errorHandler(err: any){
-    alert(`Problem: ${err}`);
+  
+  getHotspot(){
+    this.hotspot.scanWifi().then((networks: Array<HotspotNetwork>) => {
+      console.log(networks);
+      
+    })
   }
 
-  getSsidName(){
-    WifiWizard.getCurrentSSID(ssid => alert(`Your SSID: ${ssid}`), this.errorHandler)
-      
-      .catch(error => console.log(error));
-  }
-  
-  listNetworks(){
-    WifiWizard.listNetworks(networks => alert(`Networks: ${networks}`), this.errorHandler);
+  displayHotSpot(hotspotConnection: string){
+    let hotspotAdress = this.hotspot;
+    this.toast.create({
+      message: `You are now ${hotspotConnection} via ${hotspotAdress}`,
+      duration: 3000
+    }).present();
   }
 
   
