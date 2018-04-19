@@ -1,7 +1,7 @@
 
 import { Hotspot, HotspotNetwork } from '@ionic-native/hotspot';
-
 import { NetworkInterface } from '@ionic-native/network-interface';
+import { BLE } from '@ionic-native/ble';
 
 import { Component, Injectable } from '@angular/core';
 import { NavController, ToastController } from 'ionic-angular';
@@ -18,13 +18,17 @@ export class HomePage {
   connected: Subscription;
   disconnected: Subscription;
   ipadress: any;
+  scanNetworks: any;
+  devices: any[];
+  isScanning = false;
   
   constructor(
     private toast: ToastController, 
     private network: Network, 
     public navCtrl: NavController,
     private networkInterface: NetworkInterface,
-    private hotspot: Hotspot
+    private hotspot: Hotspot,
+    private ble: BLE
   ) { }
 
   
@@ -62,7 +66,7 @@ export class HomePage {
     this.networkInterface.getWiFiIPAddress().catch(data =>{
       console.log(data);
       this.ipadress = data;
-      this.displayIpAdress(data);
+      this.displayIpAdress(data.type);
       
     })
   }
@@ -79,16 +83,38 @@ export class HomePage {
   getHotspot(){
     this.hotspot.scanWifi().then((networks: Array<HotspotNetwork>) => {
       console.log(networks);
+      this.scanNetworks = networks;
+     this.displayHotSpot(this.scanNetworks.type);
       
     })
   }
 
+  
   displayHotSpot(hotspotConnection: string){
-    let hotspotAdress = this.hotspot;
+    let hotspotAdress = this.scanNetworks;
     this.toast.create({
       message: `You are now ${hotspotConnection} via ${hotspotAdress}`,
       duration: 3000
     }).present();
+  }
+
+  startScanning(){
+    console.log("Scanning ..");
+    this.devices=[];
+    this.isScanning=true;
+    this.ble.startScan([]).subscribe(
+      device => {
+        this.devices.push(device);
+      }
+    )
+  }
+
+  setTimeout(){
+    this.ble.stopScan().then(() => {
+      console.log("Scanning has stopped");
+      console.log(JSON.stringify(this.devices))
+      this.isScanning  = false;
+    }),5000;
   }
 
   

@@ -1,20 +1,36 @@
-<ion-header >
-  <ion-navbar >
+<ion-header>
+  <ion-navbar>
     <ion-title primary>
       Ionic Blank
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-  
-<ion-content padding >
-  The world is your oyster.
-  {{connected}}
+
+<ion-content padding>
+  The world is your oyster. {{connected}}
   <button ion-button block (click)="displayNetworkUpdate('top')">Show Toast Top Position</button>
   <button ion-button block (click)="displayIpAdress('top')">Show IP Adress</button>
-  
+
   <button ion-button block (click)="displayHotSpot('top');">List Networks</button>
+  <button ion-button blcok (click)="startScanning()">Start</button>
+  {{ devices | json}}
   <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+    
+    <ion-list inset>
+      <ion-item-sliding *ngFor="let device of devices">
+        <button ion-item (click)="startScanning(device)">
+          <h2>Device: {{ device.name }}</h2>
+          <p>ID: {{ device.id }}</p>
+          <p>RRSI: {{ device.rssi }}</p>
+        </button>
+      </ion-item-sliding>
+    </ion-list>
+    <ion-spinner *ngIf="isScanning==true" name="circles"></ion-spinner>
   </p>
+
+  
+    
+  
+
 </ion-content>

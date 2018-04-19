@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { Network } from '@ionic-native/network';
 import { NetworkInterface } from '@ionic-native/network-interface';
 import { Hotspot } from '@ionic-native/hotspot';
+import { BLE } from '@ionic-native/ble';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -30,6 +31,7 @@ import { HomePage } from '../pages/home/home';
     Network,
     NetworkInterface,
     Hotspot,
+    BLE,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
