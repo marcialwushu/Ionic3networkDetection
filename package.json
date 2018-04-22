@@ -47,7 +47,6 @@
     "plugin": "0.3.3",
     "rxjs": "5.5.8",
     "sw-toolbox": "3.6.0",
-    "wifiwizard": "git+https://github.com/hoerresb/WifiWizard.git",
     "zone.js": "0.8.20"
   },
   "devDependencies": {
