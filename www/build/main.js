@@ -1,1 +1,293 @@
-webpackJsonp([0],{128:function(n,l){function a(n){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+n+"'.")})}a.keys=function(){return[]},a.resolve=a,n.exports=a,a.id=128},161:function(n,l){function a(n){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+n+"'.")})}a.keys=function(){return[]},a.resolve=a,n.exports=a,a.id=161},190:function(n,l,a){"use strict";function t(n){return c._21(0,[(n()(),c.Z(0,0,null,null,2,"ion-nav",[],null,null,null,z.b,z.a)),c._15(6144,null,P.a,null,[N.a]),c.Y(2,4374528,null,0,N.a,[[2,A.a],[2,F.a],O.a,x.a,D.a,c.j,c.u,c.z,c.i,U.l,T.a,[2,W.a],C.a,c.k],{root:[0,"root"]},null),(n()(),c._19(-1,null,["\n"]))],function(n,l){n(l,2,0,l.component.rootPage)},null)}function u(n){return c._21(0,[(n()(),c.Z(0,0,null,null,21,"ion-item-sliding",[],null,null,null,$.b,$.a)),c.Y(1,49152,null,2,E.a,[[2,L.a],D.a,c.z,c.j,c.u],null,null),c._17(335544320,1,{item:0}),c._17(603979776,2,{_itemOptions:1}),(n()(),c._19(-1,null,["\n        "])),(n()(),c.Z(5,0,null,0,15,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(n,l,a){var t=!0;if("click"===l){t=!1!==n.component.startScanning(n.context.$implicit)&&t}return t},M.b,M.a)),c.Y(6,1097728,[[1,4]],3,R.a,[q.a,x.a,c.j,c.z,[2,B.a]],null,null),c._17(335544320,3,{contentLabel:0}),c._17(603979776,4,{_buttons:1}),c._17(603979776,5,{_icons:1}),c.Y(10,16384,null,0,G.a,[],null,null),(n()(),c._19(-1,2,["\n          "])),(n()(),c.Z(12,0,null,2,1,"h2",[],null,null,null,null,null)),(n()(),c._19(13,null,["Device: ",""])),(n()(),c._19(-1,2,["\n          "])),(n()(),c.Z(15,0,null,2,1,"p",[],null,null,null,null,null)),(n()(),c._19(16,null,["ID: ",""])),(n()(),c._19(-1,2,["\n          "])),(n()(),c.Z(18,0,null,2,1,"p",[],null,null,null,null,null)),(n()(),c._19(19,null,["RRSI: ",""])),(n()(),c._19(-1,2,["\n        "])),(n()(),c._19(-1,null,["\n      "]))],null,function(n,l){n(l,13,0,l.context.$implicit.name);n(l,16,0,l.context.$implicit.id);n(l,19,0,l.context.$implicit.rssi)})}function o(n){return c._21(0,[(n()(),c.Z(0,0,null,null,1,"ion-spinner",[["name","circles"]],[[2,"spinner-paused",null]],null,null,J.b,J.a)),c.Y(1,114688,null,0,X.a,[x.a,c.j,c.z],{name:[0,"name"]},null)],function(n,l){n(l,1,0,"circles")},function(n,l){n(l,0,0,c._11(l,1)._paused)})}function e(n){return c._21(0,[(n()(),c.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),c.Y(1,16384,null,0,K.a,[x.a,c.j,c.z,[2,A.a]],null,null),(n()(),c._19(-1,null,["\n  "])),(n()(),c.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Q.b,Q.a)),c.Y(4,49152,null,0,nn.a,[O.a,[2,A.a],[2,F.a],x.a,c.j,c.z],null,null),(n()(),c._19(-1,3,["\n    "])),(n()(),c.Z(6,0,null,3,2,"ion-title",[["primary",""]],null,null,null,ln.b,ln.a)),c.Y(7,49152,null,0,an.a,[x.a,c.j,c.z,[2,tn.a],[2,nn.a]],null,null),(n()(),c._19(-1,0,["\n      Ionic Blank\n    "])),(n()(),c._19(-1,3,["\n  "])),(n()(),c._19(-1,null,["\n"])),(n()(),c._19(-1,null,["\n\n\n"])),(n()(),c.Z(12,0,null,null,32,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,un.b,un.a)),c.Y(13,4374528,null,0,on.a,[x.a,D.a,C.a,c.j,c.z,O.a,en.a,c.u,[2,A.a],[2,F.a]],null,null),(n()(),c._19(14,1,["\n  The world is your oyster. ","\n  "])),(n()(),c.Z(15,0,null,1,2,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(n,l,a){var t=!0;if("click"===l){t=!1!==n.component.displayNetworkUpdate("top")&&t}return t},cn.b,cn.a)),c.Y(16,1097728,null,0,sn.a,[[8,""],x.a,c.j,c.z],{block:[0,"block"]},null),(n()(),c._19(-1,0,["Show Toast Top Position"])),(n()(),c._19(-1,1,["\n  "])),(n()(),c.Z(19,0,null,1,2,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(n,l,a){var t=!0;if("click"===l){t=!1!==n.component.displayIpAdress("top")&&t}return t},cn.b,cn.a)),c.Y(20,1097728,null,0,sn.a,[[8,""],x.a,c.j,c.z],{block:[0,"block"]},null),(n()(),c._19(-1,0,["Show IP Adress"])),(n()(),c._19(-1,1,["\n\n  "])),(n()(),c.Z(23,0,null,1,2,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(n,l,a){var t=!0;if("click"===l){t=!1!==n.component.displayHotSpot("top")&&t}return t},cn.b,cn.a)),c.Y(24,1097728,null,0,sn.a,[[8,""],x.a,c.j,c.z],{block:[0,"block"]},null),(n()(),c._19(-1,0,["List Networks"])),(n()(),c._19(-1,1,["\n  "])),(n()(),c.Z(27,0,null,1,2,"button",[["blcok",""],["ion-button",""]],null,[[null,"click"]],function(n,l,a){var t=!0;if("click"===l){t=!1!==n.component.startScanning()&&t}return t},cn.b,cn.a)),c.Y(28,1097728,null,0,sn.a,[[8,""],x.a,c.j,c.z],null,null),(n()(),c._19(-1,0,["Start"])),(n()(),c._19(30,1,["\n  ","\n  "])),c._13(0,rn.e,[]),(n()(),c.Z(32,0,null,1,11,"p",[],null,null,null,null,null)),(n()(),c._19(-1,null,["\n    \n    "])),(n()(),c.Z(34,0,null,null,5,"ion-list",[["inset",""]],null,null,null,null,null)),c.Y(35,16384,null,0,L.a,[x.a,c.j,c.z,D.a,U.l,C.a],null,null),(n()(),c._19(-1,null,["\n      "])),(n()(),c.U(16777216,null,null,1,null,u)),c.Y(38,802816,null,0,rn.i,[c.I,c.F,c.p],{ngForOf:[0,"ngForOf"]},null),(n()(),c._19(-1,null,["\n    "])),(n()(),c._19(-1,null,["\n    "])),(n()(),c.U(16777216,null,null,1,null,o)),c.Y(42,16384,null,0,rn.j,[c.I,c.F],{ngIf:[0,"ngIf"]},null),(n()(),c._19(-1,null,["\n  "])),(n()(),c._19(-1,1,["\n\n  \n    \n  \n\n"]))],function(n,l){var a=l.component;n(l,16,0,"");n(l,20,0,"");n(l,24,0,"");n(l,38,0,a.devices);n(l,42,0,1==a.isScanning)},function(n,l){var a=l.component;n(l,3,0,c._11(l,4)._hidden,c._11(l,4)._sbPadding);n(l,12,0,c._11(l,13).statusbarPadding,c._11(l,13)._hasRefresher);n(l,14,0,a.connected);n(l,30,0,c._20(l,30,0,c._11(l,31).transform(a.devices)))})}Object.defineProperty(l,"__esModule",{value:!0});var i=a(32),c=a(0),s=(a(3),a(84),a(73)),r=a(74),_=a(75),p=a(76),d=a(77),f=a(78),b=function(){function n(n,l,a,t,u,o){this.toast=n,this.network=l,this.navCtrl=a,this.networkInterface=t,this.hotspot=u,this.ble=o,this.isScanning=!1}return n.prototype.ionViewDidEnter=function(){var n=this;this.connected=this.network.onConnect().subscribe(function(l){console.log(l),n.displayNetworkUpdate(l.type)},function(n){return console.log(n)}),this.disconnected=this.network.onDisconnect().subscribe(function(l){console.log(l),n.displayNetworkUpdate(l.type)},function(n){return console.log(n)})},n.prototype.displayNetworkUpdate=function(n){this.toast.create({message:"You are now "+n+" via "+this.network.type,duration:3e3}).present()},n.prototype.ionViewWillLeave=function(){this.connected.unsubscribe(),this.disconnected.unsubscribe()},n.prototype.getIpAdress=function(){var n=this;this.networkInterface.getWiFiIPAddress().catch(function(l){console.log(l),n.ipadress=l,n.displayIpAdress(l.type)})},n.prototype.displayIpAdress=function(n){this.toast.create({message:"You are now "+n+" via "+this.networkInterface.getWiFiIPAddress.name,duration:3e3}).present()},n.prototype.getHotspot=function(){var n=this;this.hotspot.scanWifi().then(function(l){console.log(l),n.scanNetworks=l,n.displayHotSpot(n.scanNetworks.type)})},n.prototype.displayHotSpot=function(n){this.toast.create({message:"You are now "+n+" via "+this.scanNetworks,duration:3e3}).present()},n.prototype.startScanning=function(){var n=this;console.log("Scanning .."),this.devices=[],this.isScanning=!0,this.ble.startScan([]).subscribe(function(l){n.devices.push(l)})},n.prototype.setTimeout=function(){var n=this;this.ble.stopScan().then(function(){console.log("Scanning has stopped"),console.log(JSON.stringify(n.devices)),n.isScanning=!1})},n}(),h=function(){return function(n,l,a){this.rootPage=b,n.ready().then(function(){l.styleDefault(),a.hide()})}}(),k=function(){return function(){}}(),g=a(47),m=a(224),y=a(225),v=a(226),w=a(227),Y=a(228),j=a(229),S=a(230),Z=a(231),I=a(232),z=a(233),P=a(35),N=a(52),A=a(5),F=a(18),O=a(8),x=a(1),D=a(4),U=a(7),T=a(27),W=a(14),C=a(9),H=c.X({encapsulation:2,styles:[],data:{}}),V=c.V("ng-component",h,function(n){return c._21(0,[(n()(),c.Z(0,0,null,null,1,"ng-component",[],null,null,null,t,H)),c.Y(1,49152,null,0,h,[D.a,r.a,s.a],null,null)],null,null)},{},{},[]),$=a(234),E=a(63),L=a(42),M=a(189),R=a(17),q=a(15),B=a(41),G=a(62),J=a(188),X=a(54),K=a(109),Q=a(235),nn=a(31),ln=a(236),an=a(72),tn=a(44),un=a(237),on=a(21),en=a(29),cn=a(36),sn=a(19),rn=a(12),_n=a(71),pn=c.X({encapsulation:2,styles:[],data:{}}),dn=c.V("page-home",b,function(n){return c._21(0,[(n()(),c.Z(0,0,null,null,1,"page-home",[],null,null,null,e,pn)),c.Y(1,49152,null,0,b,[_n.a,_.a,F.a,p.a,d.a,f.a],null,null)],null,null)},{},{},[]),fn=a(117),bn=a(20),hn=a(88),kn=a(90),gn=a(114),mn=a(30),yn=a(95),vn=a(186),wn=a(49),Yn=a(43),jn=a(97),Sn=a(59),Zn=a(102),In=a(113),zn=a(185),Pn=a(115),Nn=a(25),An=a(96),Fn=a(116),On=c.W(k,[g.b],function(n){return c._7([c._8(512,c.i,c.S,[[8,[m.a,y.a,v.a,w.a,Y.a,j.a,S.a,Z.a,I.a,V,dn]],[3,c.i],c.s]),c._8(5120,c.r,c._16,[[3,c.r]]),c._8(4608,rn.l,rn.k,[c.r,[2,rn.t]]),c._8(5120,c.b,c._1,[]),c._8(5120,c.p,c._9,[]),c._8(5120,c.q,c._12,[]),c._8(4608,i.c,i.q,[rn.c]),c._8(6144,c.D,null,[i.c]),c._8(4608,i.f,fn.a,[]),c._8(5120,i.d,function(n,l,a,t,u){return[new i.k(n,l),new i.o(a),new i.n(t,u)]},[rn.c,c.u,rn.c,rn.c,i.f]),c._8(4608,i.e,i.e,[i.d,c.u]),c._8(135680,i.m,i.m,[rn.c]),c._8(4608,i.l,i.l,[i.e,i.m]),c._8(6144,c.B,null,[i.l]),c._8(6144,i.p,null,[i.m]),c._8(4608,c.G,c.G,[c.u]),c._8(4608,i.h,i.h,[rn.c]),c._8(4608,i.i,i.i,[rn.c]),c._8(4608,bn.k,bn.k,[]),c._8(4608,bn.c,bn.c,[]),c._8(4608,hn.a,hn.a,[O.a,x.a]),c._8(4608,kn.a,kn.a,[O.a,x.a]),c._8(4608,gn.a,gn.a,[]),c._8(4608,q.a,q.a,[]),c._8(4608,mn.a,mn.a,[D.a]),c._8(4608,en.a,en.a,[x.a,D.a,c.u,C.a]),c._8(4608,yn.a,yn.a,[O.a,x.a]),c._8(5120,rn.g,vn.b,[rn.r,[2,rn.a],x.a]),c._8(4608,rn.f,rn.f,[rn.g]),c._8(5120,wn.b,wn.d,[O.a,wn.a]),c._8(5120,W.a,W.b,[O.a,wn.b,rn.f,Yn.b,c.i]),c._8(4608,jn.a,jn.a,[O.a,x.a,W.a]),c._8(4608,Sn.a,Sn.a,[O.a,x.a]),c._8(4608,Zn.a,Zn.a,[O.a,x.a,W.a]),c._8(4608,In.a,In.a,[x.a,D.a,C.a,O.a,U.l]),c._8(4608,_n.a,_n.a,[O.a,x.a]),c._8(4608,T.a,T.a,[D.a,x.a]),c._8(4608,r.a,r.a,[]),c._8(4608,s.a,s.a,[]),c._8(4608,_.a,_.a,[]),c._8(4608,p.a,p.a,[]),c._8(4608,d.a,d.a,[]),c._8(4608,f.a,f.a,[]),c._8(512,rn.b,rn.b,[]),c._8(512,c.k,zn.a,[]),c._8(256,x.b,{},[]),c._8(1024,Pn.a,Pn.b,[]),c._8(1024,D.a,D.b,[i.b,Pn.a,c.u]),c._8(1024,x.a,x.c,[x.b,D.a]),c._8(512,C.a,C.a,[D.a]),c._8(512,Nn.a,Nn.a,[]),c._8(512,O.a,O.a,[x.a,D.a,[2,Nn.a]]),c._8(512,U.l,U.l,[O.a]),c._8(256,wn.a,{links:[]},[]),c._8(512,c.h,c.h,[]),c._8(512,An.a,An.a,[c.h]),c._8(1024,Yn.b,Yn.c,[An.a,c.o]),c._8(1024,c.c,function(n,l,a,t,u,o,e,c,s,r,_,p,d){return[i.s(n),Fn.a(l),gn.b(a,t),In.b(u,o,e,c,s),Yn.d(r,_,p,d)]},[[2,c.t],x.a,D.a,C.a,x.a,D.a,C.a,O.a,U.l,x.a,wn.a,Yn.b,c.u]),c._8(512,c.d,c.d,[[2,c.c]]),c._8(131584,c.f,c.f,[c.u,c.T,c.o,c.k,c.i,c.d]),c._8(512,c.e,c.e,[c.f]),c._8(512,i.a,i.a,[[3,i.a]]),c._8(512,bn.j,bn.j,[]),c._8(512,bn.d,bn.d,[]),c._8(512,bn.i,bn.i,[]),c._8(512,vn.a,vn.a,[]),c._8(512,k,k,[]),c._8(256,g.a,h,[]),c._8(256,rn.a,"/",[])])});Object(c.M)(),Object(i.j)().bootstrapModuleFactory(On)}},[190]);
+webpackJsonp([0],{
+
+/***/ 110:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 110;
+
+/***/ }),
+
+/***/ 151:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 151;
+
+/***/ }),
+
+/***/ 198:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ionic_native_hotspot__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_network_interface__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_ble__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_network__ = __webpack_require__(194);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(toast, network, navCtrl, networkInterface, hotspot, ble) {
+        this.toast = toast;
+        this.network = network;
+        this.navCtrl = navCtrl;
+        this.networkInterface = networkInterface;
+        this.hotspot = hotspot;
+        this.ble = ble;
+        this.isScanning = false;
+    }
+    HomePage.prototype.ionViewDidEnter = function () {
+        var _this = this;
+        this.connected = this.network.onConnect().subscribe(function (data) {
+            console.log(data);
+            _this.displayNetworkUpdate(data.type);
+        }, function (error) { return console.log(error); });
+        this.disconnected = this.network.onDisconnect().subscribe(function (data) {
+            console.log(data);
+            _this.displayNetworkUpdate(data.type);
+        }, function (error) { return console.log(error); });
+    };
+    HomePage.prototype.displayNetworkUpdate = function (connectionState) {
+        var networkType = this.network.type;
+        this.toast.create({
+            message: "You are now " + connectionState + " via " + networkType,
+            duration: 3000
+        }).present();
+    };
+    HomePage.prototype.ionViewWillLeave = function () {
+        this.connected.unsubscribe();
+        this.disconnected.unsubscribe();
+    };
+    HomePage.prototype.getIpAdress = function () {
+        var _this = this;
+        this.networkInterface.getWiFiIPAddress().catch(function (data) {
+            console.log(data);
+            _this.ipadress = data;
+            _this.displayIpAdress(data.type);
+        });
+    };
+    HomePage.prototype.displayIpAdress = function (ipConnection) {
+        var adressIp = this.networkInterface.getWiFiIPAddress.name;
+        this.toast.create({
+            message: "You are now " + ipConnection + " via " + adressIp,
+            duration: 3000
+        }).present();
+    };
+    HomePage.prototype.getHotspot = function () {
+        var _this = this;
+        this.hotspot.scanWifi().then(function (networks) {
+            console.log(networks);
+            _this.scanNetworks = networks;
+            _this.displayHotSpot(_this.scanNetworks.type);
+        });
+    };
+    HomePage.prototype.displayHotSpot = function (hotspotConnection) {
+        var hotspotAdress = this.scanNetworks;
+        this.toast.create({
+            message: "You are now " + hotspotConnection + " via " + hotspotAdress,
+            duration: 3000
+        }).present();
+    };
+    HomePage.prototype.startScanning = function () {
+        var _this = this;
+        console.log("Scanning ..");
+        this.devices = [];
+        this.isScanning = true;
+        this.ble.startScan([]).subscribe(function (device) {
+            _this.devices.push(device);
+        });
+    };
+    HomePage.prototype.setTimeout = function () {
+        var _this = this;
+        this.ble.stopScan().then(function () {
+            console.log("Scanning has stopped");
+            console.log(JSON.stringify(_this.devices));
+            _this.isScanning = false;
+        }), 5000;
+    };
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_3__angular_core__["A" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_3__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\carlosjunior\Documents\Workspace\ionic\networkDetection\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title primary>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  The world is your oyster. {{connected}}\n  <button ion-button block (click)="displayNetworkUpdate(\'top\')">Show Toast Top Position</button>\n  <button ion-button block (click)="displayIpAdress(\'top\')">Show IP Adress</button>\n\n  <button ion-button block (click)="displayHotSpot(\'top\');">List Networks</button>\n  <button ion-button blcok (click)="startScanning()">Start</button>\n  {{ devices | json}}\n  <p>\n    \n    <ion-list inset>\n      <ion-item-sliding *ngFor="let device of devices">\n        <button ion-item (click)="startScanning(device)">\n          <h2>Device: {{ device.name }}</h2>\n          <p>ID: {{ device.id }}</p>\n          <p>RRSI: {{ device.rssi }}</p>\n        </button>\n      </ion-item-sliding>\n    </ion-list>\n    <ion-spinner *ngIf="isScanning==true" name="circles"></ion-spinner>\n  </p>\n\n  \n    \n  \n\n</ion-content>'/*ion-inline-end:"C:\Users\carlosjunior\Documents\Workspace\ionic\networkDetection\src\pages\home\home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4_ionic_angular__["f" /* ToastController */],
+            __WEBPACK_IMPORTED_MODULE_5__ionic_native_network__["a" /* Network */],
+            __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["d" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1__ionic_native_network_interface__["a" /* NetworkInterface */],
+            __WEBPACK_IMPORTED_MODULE_0__ionic_native_hotspot__["a" /* Hotspot */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_native_ble__["a" /* BLE */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 199:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(221);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 221:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_network__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_network_interface__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_hotspot__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_ble__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_component__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_home_home__ = __webpack_require__(198);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_home_home__["a" /* HomePage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* MyApp */], {}, {
+                    links: []
+                })
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_home_home__["a" /* HomePage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_5__ionic_native_network__["a" /* Network */],
+                __WEBPACK_IMPORTED_MODULE_6__ionic_native_network_interface__["a" /* NetworkInterface */],
+                __WEBPACK_IMPORTED_MODULE_7__ionic_native_hotspot__["a" /* Hotspot */],
+                __WEBPACK_IMPORTED_MODULE_8__ionic_native_ble__["a" /* BLE */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 273:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(198);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = /** @class */ (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\carlosjunior\Documents\Workspace\ionic\networkDetection\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Users\carlosjunior\Documents\Workspace\ionic\networkDetection\src\app\app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ })
+
+},[199]);
+//# sourceMappingURL=main.js.map
